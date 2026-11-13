@@ -75,7 +75,7 @@ echo.
 echo Started. Keep the two new windows open.
 echo   backend   http://localhost:8000
 echo   frontend  http://localhost:5173
-echo   account   admin / Local#8k2p
+echo   account   admin / 123456
 echo.
 echo Press any key to close this window...
 pause >nul

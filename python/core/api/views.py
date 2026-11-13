@@ -294,7 +294,7 @@ def user_save(request):
     if account is None:
         if Account.objects.filter(username=username).exists():
             return err('用户名已存在')
-        password = str(data.get('password') or 'Local#8k2p')
+        password = str(data.get('password') or '123456')
         if len(password) < setting_int('password_min', 6):
             return err('密码长度不足')
         account = Account(username=username, password=hash_password(password))

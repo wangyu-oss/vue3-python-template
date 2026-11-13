@@ -16,8 +16,8 @@ Windows 双击仓库根目录的 `start.bat`。停止双击 `stop.bat`。
 | 前端 | http://localhost:5173 |
 | 后端 | http://localhost:8000 |
 | 健康检查 | http://localhost:8000/api/v1/health |
-| 管理员 | `admin` / `Local#8k2p` |
-| 普通用户 | `zhangsan` / `Local#8k2p` |
+| 管理员 | `admin` / `123456` |
+| 普通用户 | `zhangsan` / `123456` |
 
 登录页会预填管理员账号。
 

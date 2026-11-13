@@ -42,7 +42,7 @@
       </form>
       <footer class="login-foot">
         <button type="button" class="text-link" @click="registerOpen = true">{{ t('register') }}</button>
-        <p class="hint">账号 admin / Local#8k2p</p>
+        <p class="hint">账号 admin / 123456</p>
       </footer>
     </div>
     </section>
@@ -80,7 +80,7 @@ const errorMessage = ref('')
 const registerOpen = ref(false)
 const userFocus = ref(false)
 const passwordFocus = ref(false)
-const form = reactive({ username: 'admin', password: 'Local#8k2p', remember: true })
+const form = reactive({ username: 'admin', password: '123456', remember: true })
 const registerForm = reactive({ username: '', password: '', display_name: '', email: '' })
 
 async function submit() {

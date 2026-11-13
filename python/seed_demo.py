@@ -86,7 +86,7 @@ def main():
         account, _ = Account.objects.get_or_create(
             username='admin',
             defaults={
-                'password': hash_password('Local#8k2p'),
+                'password': hash_password('123456'),
                 'display_name': '管理员',
                 'is_super': True,
                 'status': 'active',
@@ -121,7 +121,7 @@ def main():
 
     admin = Account.objects.create(
         username='admin',
-        password=hash_password('Local#8k2p'),
+        password=hash_password('123456'),
         display_name='管理员',
         email='admin@localhost',
         phone='13800000000',
@@ -133,7 +133,7 @@ def main():
     admin.roles.add(super_role)
     staff = Account.objects.create(
         username='zhangsan',
-        password=hash_password('Local#8k2p'),
+        password=hash_password('123456'),
         display_name='张三',
         email='zhangsan@localhost',
         phone='13900000000',
